@@ -97,7 +97,7 @@ public class FunderServelet {
 		 output += "<td>" + country + "</td>";
 		 
 		 // buttons
-		 output += "<td><input name='btnUpdate' type='button' value='Update' class='btnUpdate btn btn-secondary'></td>"
+		 output += "<td><input name='btnUpdate' type='button' value='Update' class='btnUpdate btn btn-success'></td>"
 				 + "<td><button class='btnRemove btn btn-danger' name='btnRemove' id ='btnRemove' value='"+ funder_ID +"' >Remove</button></td></tr>";
 				 
 		 }
